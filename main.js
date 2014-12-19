@@ -1,0 +1,11 @@
+var a  = require('./didumean.js');
+var doU = a.DoUMean(["Mahdi","Alex", "Hesam", "Aran", "Yoshiki", "Akira", "Kathryn", "blahblahblah"]);
+console.log("Do you find mablah? ", doU.find("mablah"));
+console.log("Do you find Hesam? ", doU.find("Hesam"));
+console.log("Do you find madhi? ", doU.find("madhi"));
+console.log("Do you find yoi? ",doU.find("yoi"));
+console.log("Do you find sam? ",doU.find("sam"));
+console.log("Do you find aka? ",doU.find("aka"));
+console.log("Do you find yoshi? ",doU.find("yoshi"));
+console.log("Do you find zzzzzzzzzzzzzzz? ", doU.find("zzzzzzzzzzzzzzz"));
+console.log("Do you find yoshi? ", doU.find("alan"));
