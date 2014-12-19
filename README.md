@@ -1,2 +1,1 @@
-DoUMean
-=======
+This is an implementation of  [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance). Given an array of reference strings and a word to check against them, **DoUMean** finds the closest match to the given word. Check ```main.js``` to see examples.
